@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html, body
+{
+    background-image: url("/images/background.png");
+    height: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#errorPage
+{
+    font-size: 1.7em;
+}
+
+#formLog
+{
+    display: none;
+}
+
+#authForm
+{
+    width: 25% !important;
+    font-family: 'Comfortaa', cursive;
+}
+
+#content
+{
+    background-color: #c5c5c5;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    color: white;
+    padding: 0 !important;
+}
+
+.row
+{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+#left-bar
+{
+    background-image: url("/images/left-bar_bg.png");
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0 !important;
+}
+
+#btn-color
+{
+    border-top: 1px solid white;
+}
+
+#btn-color:hover
+{
+    border-bottom: 1px solid black;
+}
+
+#btn-data
+{
+    border-top: 1px solid white;
+}
+
+#btn-data:hover
+{
+    border-bottom: 1px solid #dc3545;
+}
+
+.settingsForm
+{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+.badge
+{
+    font-weight: 100;
+}
+
+#logo
+{
+    color: #dc3545;
+    font-family: 'Mansalva', cursive;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+#logo b
+{
+    color: #007bff;
+}
+
+#logo:hover
+{
+    color: #007bff;
+}
+
+#logo:hover b
+{
+    color: #dc3545;
+}
